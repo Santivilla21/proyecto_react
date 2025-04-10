@@ -47,6 +47,9 @@
   color: #888;
 }
  */
+ body{
+  background-color: #242424;
+ }
 nav{
  background-color: rgba(255, 0, 0, 0.616);
  display: flex ;
@@ -57,10 +60,11 @@ nav{
   
 }
 nav a{
-  list-style: none;
+  text-decoration: none;
   display: flex ;
   padding: 2rem;
   color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 a img{
   width: 50px;
