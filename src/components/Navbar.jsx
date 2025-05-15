@@ -1,13 +1,14 @@
 import CartWidget from './CartWidget'
+import { NavLink } from 'react-router-dom'
 const Navbar = () => {
    return (
       <nav>
 
-         <a className='nav-links' href=""><img src="../logo-presurisador.jpeg" alt="logo" /></a>
-         <a className='nav-links' href="">Presurizadores</a>
-         <a className='nav-links' href="">Infladores</a>
-         <a className='nav-links' href="">Pelotas </a>
-         <CartWidget></CartWidget>
+         <NavLink className='nav-links' to='/'><img src="../logo-presurisador.jpeg" alt="logo" /></NavLink>
+         <NavLink className='nav-links' to="/category/presurizadores">Presurizadores</NavLink>
+         <NavLink className='nav-links' to="/category/infladores">Infladores</NavLink>
+         <NavLink className='nav-links' to="/category/pelotas">Pelotas </NavLink>
+         <CartWidget/>
       </nav> 
    )
 }

@@ -1,6 +1,6 @@
-*{
+* {
   margin: 0;
-  padding:0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -47,26 +47,43 @@
   color: #888;
 }
  */
- body{
+body {
   background-color: #242424;
- }
-nav{
- background-color: rgba(255, 0, 0, 0.616);
- display: flex ;
+}
+
+nav {
+  background-color: rgba(255, 0, 0, 0.616);
+  display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 2rem;
   width: 100vw;
-  
+
 }
-nav a{
+
+nav a {
   text-decoration: none;
-  display: flex ;
+  display: flex;
   padding: 2rem;
   color: black;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-a img{
+
+nav span {
+  text-decoration: none;
+  background-color: rgba(255, 0, 0, 0.616);
+}
+
+a img {
   width: 50px;
   border-radius: 50%;
+}
+
+h1 {
+  margin: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-align: center;
+ padding-bottom:20px ;
+ 
+
 }
