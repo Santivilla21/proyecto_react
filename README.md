@@ -1,12 +1,17 @@
-# React + Vite
+Proyecto React js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta app fue creada como un E-commerce para la venta de equipo deportivo , incialmente focalizado en tenis y un producto revolucionario.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Link
+https://github.com/Santivilla21/proyecto_react.git
 
-## Expanding the ESLint configuration
+INSTALACION 
+1- Clone el repositorio 
+2- Muevase a la carpeta del archivo con "cd proyecto_react"
+3- Abra la terminal y escriba el siguiente comando "npm install" para instalar las dependencias
+4- Levante el servidor local con el comando "npm run dev"
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Links de librerias utilizadas 
+https://react-bootstrap.netlify.app/ (estilos y rutas de navegacion)
+https://firebase.google.com (base de datos/productos)

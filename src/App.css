@@ -78,6 +78,9 @@ a img {
   width: 50px;
   border-radius: 50%;
 }
+img{
+  width: 16rem; 
+}
 
 h1 {
   margin: auto;
